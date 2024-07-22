@@ -1,22 +1,33 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Poppins', sans-serif;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Spartan", sans-serif;
 }
+
 
 body{
     background-color: #f1f1f1;
 }   
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 80px;
+}
 
-.card{
-    width: 90%;
-    max-width: 470px;
-    background:linear-gradient(135deg, #71b7e6, #9b59b6);
+
+.header{
+    width:35%;
+}
+
+.weather-card {
+    width: 60%;
+    max-width: 580px;
+    background: linear-gradient(135deg, #f272f2, #87f8dd);
     border-radius: 20px;
-    color: #fff;
-    margin: 100px auto 0;
     padding: 40px 35px;
     text-align: center;
 }
