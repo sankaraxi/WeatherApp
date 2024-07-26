@@ -11,6 +11,7 @@ body{
     background-image: url('images/background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
 }   
 .container{
     display: flex;
@@ -111,4 +112,70 @@ body{
     font-size: 28px;
     font-weight: 400;
     margin-top: 15px;
+}
+
+.weather{
+    display: none;
+    transition: 1.0s ease;
+}
+
+.error{
+    text-align: left;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000;
+    font-weight: 600;
+    display: none;
+}
+
+
+@media (max-width: 477px) {
+    .container {
+        flex-direction: column;
+        padding: 30px;
+        margin: 20px 0 0 0  ;
+
+    }
+
+    .weather-card {
+        width: 100%;
+        max-width: 400px;
+    }
+
+    .other-details {
+        padding: auto;
+        flex-direction: column;
+    }
+    .other-details .col {
+        margin: 0 0 20px 0;
+    }
+    .header{
+        width:100%;
+        margin-bottom: 20px;
+    }
+    .search-box {
+
+        width: 100%;
+ 
+    }
+    .search-box input {
+        border-radius: 15px;
+        padding: 5px 12px;
+        height: 40px;
+        flex: 1;
+        margin-right: 16px;
+        font-size: 15px;
+    }
+
+    .search-box button {
+        width: 40px;
+        height: 40px;
+    }
+
+    body{
+        background-size: cover;  
+        background-position: center;
+        background-attachment: fixed;
+    } 
 }
