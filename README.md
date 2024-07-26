@@ -1,4 +1,4 @@
-# WeatherApp
+# Responsive Weather Forecasting App
 
 Welcome to the Responsive Weather Forecasting App! This app uses JavaScript and the Open Weather Map API to fetch and display live weather data.
 
